@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather Data API</title>
+</head>
+<body>
+    <p id="urlFormat"> </p>
+    <p id="urlExample"> </p>
+</body>
+
+<script type="text/javascript">
+    const formatStub = "api/v1/station/date";
+    const exampleStub = "api/v1/10/20051011";
+
+    document.getElementById("urlFormat").innerHTML = `URL format: ${window.location}${formatStub}`;
+    document.getElementById("urlExample").innerHTML = `URL example: ${window.location}${exampleStub}`;
+</script>
+</html>
